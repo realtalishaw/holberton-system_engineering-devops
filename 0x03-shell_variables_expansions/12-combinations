@@ -1,0 +1,2 @@
+#!/bin/bash
+printf grep [a,z] > sort [[:alpha]]
