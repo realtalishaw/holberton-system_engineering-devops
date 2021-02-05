@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# comment
+i=1
+bad=4
+good=8
+while [ $i -le 10 ]
+do
+	if [ "$i" = "$bad" ]; then
+	    echo "bad luck"
+	elif [ "$i" = "$good" ]; then
+	    echo "good luck"
+	else
+	    echo "Holberton School"
+	fi
+	i=$(( $i + 1))
+done
