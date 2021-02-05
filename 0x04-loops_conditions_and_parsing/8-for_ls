@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# comment
+ls="$(ls)"
+for i in $ls; do
+    echo "$i" | cut --complement -d "-" -f1
+done
