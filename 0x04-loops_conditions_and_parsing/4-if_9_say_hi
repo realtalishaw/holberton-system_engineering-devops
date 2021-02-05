@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# comment
+i=1
+n=9
+while [ $i -le 10 ]
+do
+	echo "Holberton School"
+	if [ "$i" = "$n" ]; then
+	    echo "Hi"
+	fi
+	i=$(( $i + 1))
+done
