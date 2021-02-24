@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# why though is my question
+nc -l 98
