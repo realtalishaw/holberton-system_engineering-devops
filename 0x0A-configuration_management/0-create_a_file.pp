@@ -1,4 +1,4 @@
-# this is a manifest
+# manifest
 file { 'holberton':
   path    => '/tmp/holberton',
   content => ' I love Puppet',
