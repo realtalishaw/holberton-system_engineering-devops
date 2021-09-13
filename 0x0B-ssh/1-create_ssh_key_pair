@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# I read a good twitter post from paul graham today
+ssh-keygen -f holberton -N betty -b 4096

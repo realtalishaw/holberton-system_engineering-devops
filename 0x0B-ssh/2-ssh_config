@@ -1,0 +1,9 @@
+
+# this is a comment
+Host *
+     IgnoreUnknown AddKeysToAgent,UseKeychain
+     AddKeysToAgent yes
+     UseKeychain yes
+     IdentifyFile ~/.ssh/id_rsa
+     IdentifyFile ~/.ssh/holberton
+     PasswordAuthentication no
